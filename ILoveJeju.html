@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" , minmum-scale=1.0, user-scalable=no />
+    <link rel="stylesheet" href="ILoveJeju.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/horse?style=solid">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/5.0.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>제주 사이트</title>
+
+</head>
+<body>
+    <!-- 헤더부 -->
+    <header>
+        <h1>
+            <img src="./img/logo.png" alt="" title="main_logo" class="logo" />            
+        </h1>
+        <ul id="gnb">
+            <li>
+                <a href="#"><i class="fa fa-spring"></i> <strong>Spring</strong></a>
+                </li>
+            <li>
+                <a href="#"><i class="fa fa-summer"></i> <strong>Summer</strong></a>
+                </li>
+            <li>
+                <a href="#"><i class="fa fa-fall"></i> <strong>Fall</strong></a>
+                </li>
+            <li>
+                <a href="#"><i class="fa fa-winter"></i> <strong>Winter</strong></a>
+            </li>
+        </ul>
+        <div id="sns">
+            <a href="#"><img src="./img/sns1.png" alt="about" title="about"/></a>
+            <a href="#"><img src="./img/sns2.png" alt="contact" title="contact"/></a>
+            <a href="#"><img src="./img/sns3.png" alt="face_book" title="face_book"/></a>
+            <a href="#"><img src="./img/sns4.png" alt="twitter" title="twitter"/></a>
+            <a href="#"><img src="./img/sns5.png" alt="plus" title="plus"/></a>
+        </div>
+    </header>
+        
+    <!-- 내비부 -->
+    <nav>
+        <a href="#">
+            <button type="button" class="btn">Driving course</button>
+        </a>
+        <a href="#">
+            <button type="button" class="btn">Cycling course</button>
+        </a>
+        <a href="#">
+            <button type="button" class="btn">Music list</button>
+        </a>
+        <button type="button" class="btn">Language</button>
+        <!-- <ul class="list-member"> 
+            언어 변경(기본값 한국어)
+            <li><button type="button">Korean</button></li>
+            <li><button type="button">English</button></li>
+            <li><button type="button">Chinese</button></li>
+            <li><button type="button">Japanese</button></li>
+            <li><button type="button">French</button></li>
+        </ul> -->
+        <button type="button" class="btn">
+            <input type="text" class="inp-put" placeholder="search">
+            <!-- <img src="./img/search.JPG" alt=""></img>  돋보기 이미지 첨부 -->
+        </button>
+    </nav>
+
+    <!-- 내용부 -->
+<section>
+    <article>
+        <div class="bg bg1">
+            <span>JEJU</span>
+        </div>
+    </article>
+    <article>
+        <div class="txt">
+            <i id="refresh" class="fa fa-heartbeat"></i>
+            <strong>Hot spot</strong><br/>
+            <em>
+                Tell me the moment when your heart beat.
+            </em>
+        </div>
+    </article>
+    <article>
+        <div class="txt">
+            <i id="refresh" class="fa fa-home"></i>
+            <p><strong>Guest house</strong></p>
+            <em>
+                Are you sleepy?
+            </em>
+        </div>
+    </article>
+    <article>
+        <div class="bg bg2">
+            <span>Climb</span>
+        </div>
+    </article>
+    <article>
+        <div class="bg bg3">
+            <span>Surf</span>
+        </div>
+    </article>
+    <article>
+        <div class="bg bg4">
+            <span>Festival</span>
+        </div>
+    </article>
+    <article>
+        <div class="txt">
+            <i id="refresh" class="fa fa-share-alt"></i>
+            <p>
+                <strong>Share</strong><br/>
+                <em>
+                    Share your memories of Jeju.
+                </em>
+            </p>
+        </div>
+    </article>
+    <article>
+        <div class="bg bg5">
+            <span>Restaurant</span>
+    </article>
+    <article>
+        <div class="bg bg6">
+            <span>Bar</span>
+        </div>
+    </article>
+</section>
+<!-- <script>
+    const btn = document.querySelector('.btn-select');
+    const list = document.querySelector('.list-member');
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('on');
+    });
+    list.addEventListener('click', (event) => {
+        if (event.target.nodeName === "BUTTON") {
+            btn.innerText = event.target.innerText;
+            btn.classList.remove('on');
+        }
+    });
+</script> -->
+</body>
+</html>
